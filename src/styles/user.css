@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+
+.user-container {
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 3rem;
+    box-shadow: 0px 0px 5px 0px rgba(172, 172, 172, 0.75);
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    border: 0;
+    color: white;
+    background-color: #fb3e3e;
+    border-radius: 50px;
+    padding: 9px;
+}
+
+.button:hover {
+    cursor: pointer;
+}

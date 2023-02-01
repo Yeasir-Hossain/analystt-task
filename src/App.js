@@ -1,10 +1,11 @@
-
+import Users from "./components/Users";
+import './App.css'
 
 function App() {
   return (
-    <>
-      <h1>hello</h1>
-    </>
+    <div className="container">
+      <Users />
+    </div>
   );
 }
 
